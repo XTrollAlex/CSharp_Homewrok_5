@@ -21,7 +21,7 @@ double[] FillArray(int size, int leftRange, int rightRange)
 
     for (int i = 0; i < tempArray.Length; i++)
     {
-        tempArray[i] = Math.Round(rand.Next(leftRange, rightRange) + rand.NextDouble, 3);
+        tempArray[i] = Math.Round(rand.Next(leftRange, rightRange) + rand.NextDouble(), 3);
     }
 
     return tempArray;
